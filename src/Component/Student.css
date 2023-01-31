@@ -1,0 +1,59 @@
+.studentaddclass{
+    background-color: rgb(211, 201, 189);
+    border: 3px dashed grey;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+
+
+}
+label{
+    font-weight: bold;
+}
+input{
+    width: 100%;
+}
+.button-submit{
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+}
+.button-cancel{
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+}
+.btnadd{
+    background-color: blue;
+    color: white;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: flex-end;
+    margin: 20px auto;
+    font-weight: bold;
+
+}
+.btnadd:hover{
+    background-color: green;
+}
+table{
+    width: 80vw;
+    text-align: center;
+    background-color: rgb(217, 214, 214);
+}
+
+tr{
+    width: 100%;
+
+}
+td{
+    padding: 10px;
+    font-weight: bold;
+
+}
